@@ -15,14 +15,26 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #one {
   color: white;
 }
+.container {
+  flex-direction: column-reverse;
+}
 #three {
   background-color: purple;
+  height: 50%
+  viewport width: 50%
+  padding: 60px
 }
 #two {
   background-color: green;
+  height: 50%
+  viewport width: 50%
+  padding: 60px
 }
 #one {
   background-color: red;
+  height: 50%
+  viewport width: 50%
+  padding: 60px
 }
 
 
