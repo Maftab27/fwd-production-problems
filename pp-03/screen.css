@@ -35,7 +35,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #three,
 #two,
 #one {
-height: 95vw;
+height: 100vw;
 }
 
 @media screen and (min-width: 600px) {
@@ -53,5 +53,10 @@ height: 95vw;
 }
 
 @media screen and (min-width: 800px) {
-
+  #three,
+  #two,
+  #one {
+    flex: 1 0 33%;
+    height: 33vw;
+  }
 }
