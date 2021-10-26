@@ -15,9 +15,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #one {
   color: white;
 }
-.container {
-  flex-direction: column-reverse;
-}
 #three {
   background-color: purple;
   height: 50%
@@ -40,7 +37,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ==== LAYOUT STYLES ==== */
 #content {
-
+ display: flex;
+ flex-flow: column-reverse nowrap;
 }
 
 #three,
