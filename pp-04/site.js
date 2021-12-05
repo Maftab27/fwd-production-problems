@@ -6,12 +6,14 @@
 
 x = 5;
 
-function double(num) {
-  x = num * 2;
-  return x;
-}
+var double = function double(val) {
+  if val == 'number' {
+  var num = val * 2;
+  return num;
+} else {
+  return val
 
-double(6);
+var num = double(6);
 console.log('The value of x is', x, '-- it should be 5.');
 
 /*
